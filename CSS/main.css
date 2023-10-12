@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+/* Main Page */
+
+.main {
+    background-color: papayawhip;
+    color: rebeccapurple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.main img {
+    display: block;
+    margin: auto;
+    border: 2px outset gold;
+    padding: 0.2rem;
+    background-color: red;
+}
+
+h1 {
+    display: block;
+    margin: 2rem auto;
+    text-align: center;
+    background: radial-gradient(white, red, bisque, green, blue, yellow, purple);
+    max-width: 500px;
+    color: black;
+    border-radius: 15%;
+}
+
+.main ul {
+    margin: 1em auto;
+    list-style-type: none;
+    background: linear-gradient(blue, black, green);
+    max-width: 500px;
+}
+
+.main li {
+    text-align: center;
+    text-wrap: nowrap;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+
+a:hover {
+    background-color: gold;
+    color: red;
+    border: 1px solid red;
+}
+
+.buttons {
+    margin: auto;
+    text-align: center;
+}
+
+.buttons a {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/* Beans Page */
+
+.beans img {
+    display: block;
+    margin: 1rem auto;
+    border: 2px solid black;
+}
+
+.beans {
+    background-color: papayawhip;
+    color: red;
+    font-family: monospace, "Times New Roman", sans-serif;
+}
+
+.beans h3 {
+    color: blue;
+    text-align: center;
+}
+
+.beans p {
+    margin: auto;
+    text-align: center;
+    max-width: 600px;
+    font-size: 1.1rem;
+}
+
+.beans ul {
+    font-style: italic;
+    max-width: 600px;
+    margin: auto;
+}
+
+.beans ul li:hover {
+    background-color: aqua;
+}
+
+.beans ol {
+
+    max-width: 600px;
+    margin: auto;
+}
+
+.beans ol li {
+    margin: 0.5rem;
+}
+
+.beans .buttons a {
+    color: black;
+}
+
+/* Burritos Page */
+
+.burrito img {
+    display: block;
+    margin: 1rem auto;
+    border: 2px solid black;
+}
+
+.burrito {
+    background-color: bisque;
+    color: darkgreen;
+}
+
+.burrito h3 {
+    color: black;
+    margin: auto;
+    text-align: center;
+    max-width: 600px;
+}
+
+.burrito p {
+    margin: 1rem auto;
+    text-align: center;
+    max-width: 600px;
+}
+
+.burrito ul {
+    margin: 1rem auto;
+    max-width: 600px;
+}
+
+.burrito ul li {
+    font-style: italic;
+}
+
+.burrito ul li:hover {
+    background-color: lightpink;
+}
+
+.burrito ol {
+    margin: 1rem auto;
+    max-width: 600px;
+}
+
+.burrito ol li {
+    margin-top: 0.5rem;
+}
+
+.burrito .buttons a {
+    color: black;
+}
+
+/* Enchiladas Page */
+
+.enchiladas img {
+    display: block;
+    margin: 1rem auto;
+    border: 2px solid blue;
+}
+
+.enchiladas {
+    background-color: lightcoral;
+    color: rgb(202, 18, 27);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.enchiladas h3 {
+    color: black;
+    text-align: center;
+}
+
+.enchiladas p {
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+}
+
+.enchiladas ul {
+    margin: auto;
+    max-width: 600px;
+    font-style: italic;
+}
+
+.enchiladas ul li:hover {
+    background-color: aquamarine;
+}
+
+.enchiladas ol {
+    margin: auto;
+    max-width: 600px;
+}
+
+.enchiladas ol li {
+    margin: 0.5rem;
+}
+
+.spain {
+    font-weight: bold;
+    color: lightgoldenrodyellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.spain:hover {
+    background-color: lightblue;
+    color: black;
+}
